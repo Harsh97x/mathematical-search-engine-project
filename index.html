@@ -66,35 +66,35 @@
   </head>
 
   <body>
-    <div id="navbar">
+    <nav class="navbar navbar-extend-lg navbar-light py-3 fixed-top">
       <div class="container">
-        <a class="logo" href="#"><span>Weather.io</span></a>
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">AboutUs</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
+        <a href="#" class="navbar-brand">Weather.io</a>
 
-    <section id="hero">
-      <div class="container">
-        <div class="left-col">   <!--left column starts-->
-           <h1>Provide you a world wide weather forecast</h1>
-        </div>      <!--left column ends-->
-        <img src="Assets/Hero_section_img.jpg" class="hero-img" alt="Illustration">
-      </div>
-    </section>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <section id="searchbar">
-      <div class="container">
-        <input type="text" placeholder="Search Place">
-        <button type="submit">Search</button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About us</a>
+          </li>
+        </ul>
       </div>
-    </section>
-     
+      </div>
+    
+  </nav>
 
     <!--Open Weather API result -->
         

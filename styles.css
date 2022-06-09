@@ -1,11 +1,14 @@
-/* Body Style*/
 body{
     background: #ffcaca;
     margin: 0;
 }
 
-#navbar{
+nav{
     padding: 1em;
+}
+
+a{
+    text-decoration: none;
 }
 
 .logo{
@@ -15,6 +18,10 @@ body{
     font-size: 2em;
 }
 
+.container{
+    display:flex;
+    place-content: space-between;
+}
 
 
 /*Open Weather API Result section Style*/
