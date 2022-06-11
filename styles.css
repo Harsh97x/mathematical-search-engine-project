@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body{
     background: #ffcaca;
     margin: 0;
@@ -17,8 +16,8 @@ a{
 }
 
 .image-paper{
-    width: 28rem;
-    height: 28rem;
+    width: 25rem;
+    height: 25rem;
 }
 
 .height{
@@ -58,9 +57,17 @@ a{
     left: 16px;
 
    }
-=======
->>>>>>> 85572c54ae7256d2c829533e135b846ecc390e84
 
+
+   .landing-page-heading{
+       padding: 200px;
+   }
+
+   .landing-page-img{
+
+    padding: 50px;
+
+   }
 /*Open Weather API Result section Style*/
 
 
