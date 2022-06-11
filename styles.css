@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background: #ffcaca;
     margin: 0;
@@ -57,6 +58,8 @@ a{
     left: 16px;
 
    }
+=======
+>>>>>>> 85572c54ae7256d2c829533e135b846ecc390e84
 
 /*Open Weather API Result section Style*/
 
@@ -65,44 +68,135 @@ a{
 
 /*About-us Section style*/
 
+
+
 #about-section{
-    text-align: center;
+    
     background-color: #FFCACA;
+    padding-bottom: 35px;
+}
+
+.about-heading{
+    padding-left: 120px;
+}
+
+.about-heading h1{
+    width: fit-content;
+    font-size: 50px;
+    
+    
+}
+
+.about-row{
+    text-align: center;
 }
 
 .about-img{
-    height: 30rem;
+    height: 25rem;
     width: 28rem;
+    
 
+}
+
+
+
+.car-back{
+    border-radius:20px;
+}
+
+.card-body{
+    position: relative;
+    top:0;
+    left:0;
+    padding-top: 45px;
+   
+}
+.about-harsh-pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   
+    position: absolute;
+    top: -100px;
+    left: 70px;
+   
+}
+
+.about-shyam-pic{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: absolute;
+  top: -100px;
+  left: 70px;
+}
+
+.about-icon{
+    width: 35px;
+    height: 35px;
 }
 
 .about-pad1{
     padding: 100px;
+    padding-top: 130px;
 }
 
 .about-pad2{
     padding: 100px;
+    padding-top: 130px;
 }
 
 .about-pad3{
     padding: 100px;
 }
 /*Footer Section*/
-
+.Parent-footer{
+    position: relative;
+}
 
 .footer-tbox-parent-back{
-    background-color: aliceblue;
+    position: absolute;
+  top: -50px;
+  left: 70px;
+  right: 70px;
+  z-index: 9;
+  
+  
+
 }
 
 .footer-tbox{
-    background-color:#FAE6B3 ;
-    padding-left: 500px;
-    padding-right: 200px;
+    background-color:#ffffff ;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 10px;
+   
+}
+
+.footer-tbox-back{
+    background-color:#FAE6B3;
+}
+
+.footer-main-heading{
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer-main-button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 200px;
 }
 
 .footer-section-background{
     background-color:#FE9696;
     text-align: center;
+    position:relative;
+    top:0;
+    left:0;
 }
 
 .footer-section-background hr{
