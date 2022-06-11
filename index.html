@@ -66,35 +66,63 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-extend-lg navbar-light py-3 fixed-top">
-      <div class="container">
-        <a href="#" class="navbar-brand">Weather.io</a>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        >
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="">Weather.io</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <div class="collapse navbar-collapse" id="navmenu">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a href="#" class="nav-link">Home</a>
+      <div
+        class="collapse navbar-collapse nav justify-content-end"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item color-link">
+            <a class="nav-link" href="">Climate</a>
           </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Services</a>
+          <li class="nav-item color-link">
+            <a class="nav-link" href="">Services</a>
           </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">About us</a>
+          <li class="nav-item color-link">
+            <a class="nav-link" href="">About Us</a>
           </li>
         </ul>
       </div>
+    </div>
+    </nav>
+
+  <section>
+    <div class="row">
+      <div class="col">
+        <h1>Provide you a world wide weather forecast</h1>
       </div>
-    
-  </nav>
+      <div class="col">
+        <img class="image-paper" src="Assets/Hero_section_img.jpg" alt="Main Image"/>
+      </div>
+     </div>
+   </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="input-group">
+        <input class="form-control border-end-0 border rounded-pill" type="text" value="search" id="example-search-input">
+        <span class="input-group-append">
+            <button class="btn btn-outline-secondary bg-white border-start-0 border rounded-pill ms-n3" type="button">
+                <i class="fa fa-search"></i>
+            </button>
+        </span>
+ </div>
+    </div>                        
+  </section>
 
     <!--Open Weather API result -->
         
