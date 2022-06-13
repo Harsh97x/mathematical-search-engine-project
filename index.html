@@ -120,9 +120,8 @@
         <div class="input-group">
           <input class="form-control border-end-0 border rounded-pill" type="text" value="search" id="example-search-input">
           <span class="input-group-append">
-              <button class="btn btn-outline-secondary bg-white border-start-0 border rounded-pill ms-n3" type="button">
-                  <i class="fa fa-search"></i>
-              </button>
+                <button type="button" class="btn btn-dark">search</button>
+              </div>
           </span>
          </div>
       </div>                        
@@ -133,9 +132,66 @@
     <!--Open Weather API result -->
         
        <!--Section 2-->
-          <!--Div 2.1-->
-          <!--Div 2.2-->
-          <!--Div 2.3-->
+        <section id="api-result">
+          
+            <div class="api-city-name-parent">
+            <div class="row api-city-name">
+               <div class="col-lg-6 col-sm-6">
+                <img class="api-cloud-icon" src="Assets/cloud-computing.png" alt="iweather-icon">
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                  <h3>Jhansi,Uttar Pradesh</h3>
+               </div>
+             </div>
+            </div>
+          
+          
+          <div class="api-main-dashboard-parent">
+            <div class="row api-dashboard">
+              <div class="api-temp col-lg-4 col-sm-4 col-xs-4">
+                 <h1>41°Celcius</h1>
+              </div>
+              <div class="api-temp-advice col-lg-4 col-sm-4 col-xs-4">
+                <h2>Very hot outside</h2>
+                <h3>Stay hydrated, wear full clothes</h3>
+              </div>
+              <div class="weather-icon-api-parent col-lg-4 col-sm-4 col-xs-4">
+                  <img class="weather-icon-api-dashboard" src="Assets/Weather icon/static/day.svg" alt="icon">
+              </div>
+             </div>
+           </div>
+          
+          <div>
+            <div class="row">
+              <div class="air-index col-lg-4 col-sm-4 col-xs-4">
+                 <div class="air-quality-index" >
+                  <span>Air Quality</span>
+                  <span>| AQI</span>
+                 </div>
+                 <div class="air-quality-icon-space">
+                   <img class="AQI-img" src="Assets/air_quality_img/AQI-50.jpg" alt="AQI-Icon">
+                 </div>
+              </div>
+              <div class="air-index col-lg-4 col-sm-4 col-xs-4">
+                <div class="air-quality-index" >
+                   <span>Wind Speed</span>
+                </div>
+                <div class="air-quality-icon-space">
+                  <img class="wind-speed-img" src="Assets/wind-speed-img.jpg" alt="wind-speed">
+                  
+                </div>
+             </div>
+             <div class="air-index col-lg-4 col-sm-4 col-xs-4">
+              <div class="air-quality-index" >
+                 <span>UV Radition</span>
+              </div>
+              <div class="air-quality-icon-space">
+                <img class="uv-radition-img" src="Assets/uv-radition-img.jpg" alt="uv-radition">
+              </div>
+           </div>
+          </div>
+
+        </section>
 
     <!--About-->
         
@@ -225,8 +281,8 @@
                     </div>
                      
                     <div class="feature-box footer-main-button col-lg-6 col-sm-6">
-                     <button type="button" class="btn btn-light">
-                       <a class="button-link" href="#"> Results </a>
+                      <button type="button" class="btn btn-dark">Results</button>
+
                     </div>
                 </div>
               </div>

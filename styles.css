@@ -1,3 +1,8 @@
+*{
+    text-decoration: none;
+}
+
+
 body{
     background: #ffcaca;
     margin: 0;
@@ -6,9 +11,7 @@ body{
 .nav-item {
     display: inline-block;
 }
-a{
-    text-decoration: none;
-}
+
 
 .container{
     display:flex;
@@ -69,6 +72,96 @@ a{
 
    }
 /*Open Weather API Result section Style*/
+
+#api-result{
+    background-color: #FFCACA;
+    padding: 150px;
+    
+}
+
+.api-cloud-icon{
+    width: 40px;
+    height: 40px;
+}
+
+.api-city-name-parent{
+    padding-left: 4%;
+    padding-right:50%;
+    
+}
+
+.api-city-name{
+    background-color:#FCF0F0;
+    border-radius: 20px;
+    
+}
+
+.api-main-dashboard-parent{
+    padding: 60px 200px 60px 50px;
+
+}
+
+.api-dashboard{
+    background-color:#FCF0F0;
+    border-radius: 20px;
+}
+
+.api-temp{
+    padding: 100px 40px 100px 40px ;
+}
+
+.api-temp-advice{
+    padding: 70px 40px 70px 20px ;
+}
+
+.weather-icon-api-parent{
+    padding:px;
+    margin: 0%;
+}
+
+.weather-icon-api-dashboard{
+    width: 300px;
+    height: 300px;  
+}
+
+.air-index{
+    padding: 50px;
+    width:fit-content;
+    
+}
+
+.air-quality-index{
+    background-color:#F2B7B7 ;
+    font-size: 40px;
+    border-radius: 10px;
+
+    
+}
+
+.air-quality-icon-space{
+    background-color:#FCF0F0;
+    border-radius: 20px;
+}
+
+.AQI-img{
+    width:300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.wind-speed-img{
+    width:350px;
+    height: 300px;
+    border-radius: 20px;  
+
+}
+
+.uv-radition-img{
+    width:300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
 
 
 
@@ -171,6 +264,7 @@ a{
   z-index: 9;
   
   
+  
 
 }
 
@@ -179,11 +273,13 @@ a{
     padding-left: 300px;
     padding-right: 300px;
     padding-top: 10px;
+    border-radius: 8px;
    
 }
 
 .footer-tbox-back{
     background-color:#FAE6B3;
+    border-radius: 10px;
 }
 
 .footer-main-heading{
