@@ -4,8 +4,9 @@
 
 
 body{
-    background: #ffcaca;
+    background: #3585DA;
     margin: 0;
+    font-family: 'Outfit', sans-serif;
 }
 
 .nav-item {
@@ -13,64 +14,104 @@ body{
 }
 
 
+.row h1{
+    font-weight: 600;
+    margin-top: 3em;
+    margin-left: 4em;
+    padding-left: 2em;
+}
+
 .container{
     display:flex;
     place-content: space-between;
 }
 
 .image-paper{
-    width: 25rem;
-    height: 25rem;
+    width: 19em;
+    height: 19em;
+    border-radius: 3em;
+    margin-left: 9em;
+    margin-right: 9em;
+    margin-top: 9em;
 }
 
 .height{
     height: 30vh;
    }
    
+   .container .input{
+	border: 0;
+	outline: none;
+	color: #8b7d77;
+}
 
-   .search{
-   position: relative;
-   box-shadow: 0 0 40px rgba(51, 51, 51, .1);
-   width: 100vh;
-     
-   }
+.search_wrap{
+	width: 500px;
+	margin-top: 7em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5em;    
+}
 
-   .search input{
+.search_wrap .search_box{
+	position: relative;
+	width: 500px;
+	height: 60px;
+}
 
-    height: 60px;
-    text-indent: 25px;
-    border: 2px solid #d6d4d4;
+.search_wrap .search_box .input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 10px 20px;
+	border-radius: 25px;
+	font-size: 18px;
+}
 
+.search_wrap .search_box .btn{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	z-index: 1;
+	cursor: pointer;
+}
 
-   }
+.search_wrap .search_box .btn:hover{
+	background: red;	
+}
 
+.search_wrap .search_box .btn.btn_common .fas{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 30px;
+}
 
-   .search input:focus{
+.search_wrap.search_wrap_6 .search_box .btn{
+    width: 125px;
+	height: 60px;
+	border-radius: 25px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
-    box-shadow: none;
-    border: 2px solid blue;
+.search_wrap.search_wrap_6 .search_box .btn{
+	border-radius: 25px;
+}
 
+.search_wrap.search_wrap_5 .search_box .input{
+    padding-right: 145px;
+}
 
-   }
-
-   .search .fa-search{
-
-    position: absolute;
-    top: 20px;
-    left: 16px;
-
-   }
-
-
-   .landing-page-heading{
-       padding: 200px;
-   }
-
-   .landing-page-img{
-
-    padding: 50px;
-
-   }
 /*Open Weather API Result section Style*/
 
 #api-result{
@@ -262,9 +303,6 @@ body{
   left: 70px;
   right: 70px;
   z-index: 9;
-  
-  
-  
 
 }
 
