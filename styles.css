@@ -1,271 +1,246 @@
-*{
-    text-decoration: none;
+* {
+  text-decoration: none;
 }
 
-
-body{
-    background: #3585DA;
-    margin: 0;
-    font-family: 'Outfit', sans-serif;
+body {
+  background: #3585da;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
 }
 
 .nav-item {
-    display: inline-block;
+  display: inline-block;
 }
 
-
-.row h1{
-    font-weight: 600;
-    margin-top: 2.3em;
-    margin-left: 4em;
-    padding-left: 2em;
+.row h1 {
+  font-weight: 600;
+  margin-top: 2.3em;
+  margin-left: 4em;
+  padding-left: 2em;
 }
 
-.container{
-    display:flex;
-    place-content: space-between;
+.container {
+  display: flex;
+  place-content: space-between;
 }
 
-.image-paper{
-    width: 19em;
-    height: 19em;
-    border-radius: 3em;
-    margin-left: 9em;
-    margin-right: 9em;
-    margin-top: 8em;
+.image-paper {
+  width: 19em;
+  height: 19em;
+  border-radius: 3em;
+  margin-left: 9em;
+  margin-right: 9em;
+  margin-top: 8em;
 }
 
-.height{
-    height: 30vh;
-   }
-   
-   .container .input{
-	border: 0;
-	outline: none;
-	color: #8b7d77;
+.height {
+  height: 30vh;
 }
 
-.search_wrap{
-	width: 500px;
-	margin-top: 7em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 7em;    
+.container .input {
+  border: 0;
+  outline: none;
+  color: #8b7d77;
 }
 
-.search_wrap .search_box{
-	position: relative;
-	width: 500px;
-	height: 60px;
+.search_wrap {
+  width: 500px;
+  margin-top: 7em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7em;
 }
 
-.search_wrap .search_box .input{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	padding: 10px 20px;
-	border-radius: 25px;
-	font-size: 18px;
+.search_wrap .search_box {
+  position: relative;
+  width: 500px;
+  height: 60px;
 }
 
-.search_wrap .search_box .btn{
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 100%;
-	height: 100%;
-	background: black;
-	z-index: 1;
-	cursor: pointer;
+.search_wrap .search_box .input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 18px;
 }
 
-.search_wrap .search_box .btn:hover{
-	background: red;	
+.search_wrap .search_box .btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: 1;
+  cursor: pointer;
 }
 
-.search_wrap .search_box .btn.btn_common .fas{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	color: #fff;
-	font-size: 30px;
+.search_wrap .search_box .btn:hover {
+  background: red;
 }
 
-.search_wrap.search_wrap_6 .search_box .btn{
-    width: 125px;
-	height: 60px;
-	border-radius: 25px;
-	color: #fff;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.search_wrap .search_box .btn.btn_common .fas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 30px;
 }
 
-.search_wrap.search_wrap_6 .search_box .btn{
-	border-radius: 25px;
+.search_wrap.search_wrap_6 .search_box .btn {
+  width: 125px;
+  height: 60px;
+  border-radius: 25px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.search_wrap.search_wrap_5 .search_box .input{
-    padding-right: 145px;
+.search_wrap.search_wrap_6 .search_box .btn {
+  border-radius: 25px;
+}
+
+.search_wrap.search_wrap_5 .search_box .input {
+  padding-right: 145px;
 }
 
 /*Open Weather API Result section Style*/
 
-#api-result{
-    background-color: #FFCACA;
-    padding: 150px;
-    
+#api-result {
+  background-color: #ffcaca;
+  padding: 150px;
 }
 
-.api-cloud-icon{
-    width: 40px;
-    height: 40px;
+.api-cloud-icon {
+  width: 40px;
+  height: 40px;
 }
 
-.api-city-name-parent{
-    padding-left: 4%;
-    padding-right:50%;
-    
+.api-city-name-parent {
+  padding-left: 4%;
+  padding-right: 50%;
 }
 
-.api-city-name{
-    background-color:#FCF0F0;
-    border-radius: 20px;
-    
+.api-city-name {
+  background-color: #fcf0f0;
+  border-radius: 20px;
 }
 
-.api-main-dashboard-parent{
-    padding: 60px 200px 60px 50px;
-
+.api-main-dashboard-parent {
+  padding: 60px 200px 60px 50px;
 }
 
-.api-dashboard{
-    background-color:#FCF0F0;
-    border-radius: 20px;
+.api-dashboard {
+  background-color: #fcf0f0;
+  border-radius: 20px;
 }
 
-.api-temp{
-    padding: 100px 40px 100px 40px ;
+.api-temp {
+  padding: 100px 40px 100px 40px;
 }
 
-.api-temp-advice{
-    padding: 70px 40px 70px 20px ;
+.api-temp-advice {
+  padding: 70px 40px 70px 20px;
 }
 
-.weather-icon-api-parent{
-    padding:px;
-    margin: 0%;
+.weather-icon-api-parent {
+  padding: px;
+  margin: 0%;
 }
 
-.weather-icon-api-dashboard{
-    width: 300px;
-    height: 300px;  
+.weather-icon-api-dashboard {
+  width: 300px;
+  height: 300px;
 }
 
-.air-index{
-    padding: 50px;
-    width:fit-content;
-    
+.air-index {
+  padding: 50px;
+  width: fit-content;
 }
 
-.air-quality-index{
-    background-color:#F2B7B7 ;
-    font-size: 40px;
-    border-radius: 10px;
-
-    
+.air-quality-index {
+  background-color: #f2b7b7;
+  font-size: 40px;
+  border-radius: 10px;
 }
 
-.air-quality-icon-space{
-    background-color:#FCF0F0;
-    border-radius: 20px;
+.air-quality-icon-space {
+  background-color: #fcf0f0;
+  border-radius: 20px;
 }
 
-.AQI-img{
-    width:300px;
-    height: 300px;
-    border-radius: 20px;
+.AQI-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
 }
 
-.wind-speed-img{
-    width:350px;
-    height: 300px;
-    border-radius: 20px;  
-
+.wind-speed-img {
+  width: 350px;
+  height: 300px;
+  border-radius: 20px;
 }
 
-.uv-radition-img{
-    width:300px;
-    height: 300px;
-    border-radius: 20px;
+.uv-radition-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
 }
-
-
-
-
 
 /*About-us Section style*/
 
-
-
-#about-section{
-    
-    background-color: #FFCACA;
-    padding-bottom: 35px;
+#about-section {
+  background-color: #ffcaca;
+  padding-bottom: 35px;
 }
 
-.about-heading{
-    padding-left: 120px;
+.about-heading {
+  padding-left: 120px;
 }
 
-.about-heading h1{
-    width: fit-content;
-    font-size: 50px;
-    
-    
+.about-heading h1 {
+  width: fit-content;
+  font-size: 50px;
 }
 
-.about-row{
-    text-align: center;
+.about-row {
+  text-align: center;
 }
 
-.about-img{
-    height: 25rem;
-    width: 28rem;
-    
-
+.about-img {
+  height: 25rem;
+  width: 28rem;
 }
 
-
-
-.car-back{
-    border-radius:20px;
+.car-back {
+  border-radius: 20px;
 }
 
-.card-body{
-    position: relative;
-    top:0;
-    left:0;
-    padding-top: 45px;
-   
+.card-body {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-top: 45px;
 }
-.about-harsh-pic{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-   
-    position: absolute;
-    top: -100px;
-    left: 70px;
-   
+.about-harsh-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+  position: absolute;
+  top: -100px;
+  left: 70px;
 }
 
-.about-shyam-pic{
-    display: block;
+.about-shyam-pic {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -274,135 +249,129 @@ body{
   left: 70px;
 }
 
-.about-icon{
-    width: 35px;
-    height: 35px;
+.about-icon {
+  width: 35px;
+  height: 35px;
 }
 
-.about-pad1{
-    padding: 100px;
-    padding-top: 130px;
+.about-pad1 {
+  padding: 100px;
+  padding-top: 130px;
 }
 
-.about-pad2{
-    padding: 100px;
-    padding-top: 130px;
+.about-pad2 {
+  padding: 100px;
+  padding-top: 130px;
 }
 
-.about-pad3{
-    padding: 100px;
+.about-pad3 {
+  padding: 100px;
 }
 /*Footer Section*/
-.Parent-footer{
-    position: relative;
+.Parent-footer {
+  position: relative;
 }
 
-.footer-tbox-parent-back{
-    position: absolute;
+.footer-tbox-parent-back {
+  position: absolute;
   top: -50px;
   left: 70px;
   right: 70px;
   z-index: 9;
-
 }
 
-.footer-tbox{
-    background-color:#ffffff ;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 10px;
-    border-radius: 8px;
-   
+.footer-tbox {
+  background-color: #ffffff;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 10px;
+  border-radius: 8px;
 }
 
-.footer-tbox-back{
-    background-color:#FAE6B3;
-    border-radius: 10px;
+.footer-tbox-back {
+  background-color: #fae6b3;
+  border-radius: 10px;
 }
 
-.footer-main-heading{
-    padding-left: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+.footer-main-heading {
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.footer-main-button{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 200px;
+.footer-main-button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 200px;
 }
 
-.footer-section-background{
-    background-color:#FE9696;
-    text-align: center;
-    position:relative;
-    top:0;
-    left:0;
+.footer-section-background {
+  background-color: #fe9696;
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
-.footer-section-background hr{
-        margin:0px;
-        width:100%;
-        height: 2px;
-        
-        
+.footer-section-background hr {
+  margin: 0px;
+  width: 100%;
+  height: 2px;
 }
 
-.footer-feature-box{
-    text-align: left;
-    
+.footer-feature-box {
+  text-align: left;
 }
 
-.footer-fbox-pad1{
-    padding-left: 300px;
-    padding-right: 100px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: fit-content;
+.footer-fbox-pad1 {
+  padding-left: 300px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: fit-content;
 }
 
-.footer-fbox-pad1 h4{
-    width: fit-content;
+.footer-fbox-pad1 h4 {
+  width: fit-content;
 }
 
-.footer-fbox-pad1 ul{
-    width:fit-content
+.footer-fbox-pad1 ul {
+  width: fit-content;
 }
 
-.footer-fbox-pad2{
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: fit-content;
+.footer-fbox-pad2 {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: fit-content;
 }
 
-.footer-fbox-pad2 h4{
-    width: fit-content;
+.footer-fbox-pad2 h4 {
+  width: fit-content;
 }
 
-.footer-fbox-pad2 ul{
-    width: fit-content;
+.footer-fbox-pad2 ul {
+  width: fit-content;
 }
 
-.footer-fbox-pad3{
-    padding-left: 100px;
-    padding-right: 200px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.footer-fbox-pad3 {
+  padding-left: 100px;
+  padding-right: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.footer-feature-box ul{
-    padding: 0%;
+.footer-feature-box ul {
+  padding: 0%;
 }
 
-.footer-line{
-    padding: 11px;
-
+.footer-line {
+  padding: 11px;
 }
 
-.copyright-pad{
-    padding-bottom: 11px;
-    padding-left: 200px;
-    padding-right: 350px;
+.copyright-pad {
+  padding-bottom: 11px;
+  padding-left: 200px;
+  padding-right: 350px;
 }
