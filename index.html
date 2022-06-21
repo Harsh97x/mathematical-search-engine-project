@@ -73,7 +73,7 @@
     
     <!--Landing Page-->
 
-    <section>
+    <section id="hero-section">
       <div class="container-fluid pt-3">
         <nav class="navbar navbar-expand-lg navbar-dark px-5">
         <a class="navbar-brand display-1" href="">Weather.io</a>
@@ -121,8 +121,8 @@
       <div class="container">
         <div class="search_wrap search_wrap_6">
           <div class="search_box">
-            <input type="text" class="input" placeholder="search...">
-            <div class="btn btn_common">
+            <input type="text" class="input inputvalue" placeholder="Enter city name">
+            <div class="submit-button btn btn_common">
                         <P style="margin-bottom: 0;">Search</P>
             </div>
           </div>
@@ -142,7 +142,7 @@
                 <img class="api-cloud-icon" src="Assets/cloud-computing.png" alt="iweather-icon">
                 </div>
                 <div class="col-lg-6 col-sm-6">
-                  <h3>Jhansi,Uttar Pradesh</h3>
+                  <h3 class="name-city">Jhansi,Uttar Pradesh</h3>
                </div>
              </div>
             </div>
@@ -151,7 +151,7 @@
           <div class="api-main-dashboard-parent">
             <div class="row api-dashboard">
               <div class="api-temp col-lg-4 col-sm-4 col-xs-4">
-                 <h1>41°Celcius</h1>
+                 <h1 class="temp-city">41°Celcius</h1>
               </div>
               <div class="api-temp-advice col-lg-4 col-sm-4 col-xs-4">
                 <h2>Very hot outside</h2>
@@ -372,6 +372,7 @@
          <!--Div 4.1-->
          <!--Div 4.2-->
          <!--Div 4.3-->
-
+    
+         <script src="app.js"></script>
  </body>
 </html>

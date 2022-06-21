@@ -3,13 +3,45 @@
 }
 
 body {
-  background: #3585da;
   margin: 0;
   font-family: "Outfit", sans-serif;
 }
 
+#hero-section{
+  background:  #ffcaca;
+}
+
 .nav-item {
   display: inline-block;
+}
+
+.navbar-nav ml-auto {
+  text-align: right;
+}
+
+.navbar {
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+.navbar-brand {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.color-link {
+  color: rgb(8, 8, 8);
 }
 
 .row h1 {
@@ -22,12 +54,14 @@ body {
 .container {
   display: flex;
   place-content: space-between;
+  margin: 0px;
+  padding-left: 150px;
 }
 
 .image-paper {
   width: 19em;
   height: 19em;
-  border-radius: 3em;
+  border-radius: 2em;
   margin-left: 9em;
   margin-right: 9em;
   margin-top: 8em;
@@ -44,16 +78,17 @@ body {
 }
 
 .search_wrap {
-  width: 500px;
-  margin-top: 7em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 7em;
+  width: 200px;
+  margin-top: 100px;
+  margin-left: 250px;
+  margin-right: 1000px;
+  margin-bottom: 50px;
+  padding-right: 100px;
 }
 
 .search_wrap .search_box {
   position: relative;
-  width: 500px;
+  width: 800px;
   height: 60px;
 }
 
@@ -80,7 +115,7 @@ body {
 }
 
 .search_wrap .search_box .btn:hover {
-  background: red;
+  background: #354259;
 }
 
 .search_wrap .search_box .btn.btn_common .fas {
