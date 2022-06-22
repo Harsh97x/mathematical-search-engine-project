@@ -170,6 +170,11 @@ body {
   padding-right: 50%;
 }
 
+.temp-city{
+  margin: 0;
+  padding: 40px, 100px;
+}
+
 .api-city-name {
   background-color: #fcf0f0;
   border-radius: 20px;
