@@ -170,6 +170,10 @@ body {
   padding-right: 50%;
 }
 
+.api-main-dashboard-parent{
+  padding: 50px, 60px;
+}
+
 .temp-city{
   margin: 0;
   padding: 40px, 100px;

@@ -30,7 +30,7 @@ button.addEventListener("click", function (name) {
       var id = data["weather"][0]["id"];
 
       name.innerHTML = nameValue;
-      temp.innerHTML = tempValue + "°Celsius";
+      temp.innerHTML = tempValue + "°C";
       wind.innerHTML = windValue + "m/s";
       desc.innerHTML = descValue;
       humidity.innerHTML = humidityValue + "%";
