@@ -152,7 +152,17 @@ body {
   padding: 150px;
 }
 
-.api-cloud-icon {
+.namecity{
+  display: inline;
+  
+}
+
+.countrycode{
+  padding-left: 10px;
+  display: inline;
+}
+
+.searchweathericon {
   width: 40px;
   height: 40px;
 }
@@ -189,7 +199,7 @@ body {
   margin: 0%;
 }
 
-.weather-icon-api-dashboard {
+.apicloudicon {
   width: 300px;
   height: 300px;
 }
