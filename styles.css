@@ -166,17 +166,34 @@ body {
 }
 
 .api-city-name-parent {
-  padding-left: 4%;
+  padding-left: 2%;
   padding-right: 50%;
+
 }
 
 .api-main-dashboard-parent{
-  padding: 50px, 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: -5px;
 }
 
-.temp-city{
-  margin: 0;
-  padding: 40px, 100px;
+.api-temp h1{
+  margin: 0px;
+  padding: 0px;
+  font-size: 80px;
+}
+
+.api-temp-advice{
+  padding: 70px, 20px;
+  margin: 10px, 40px;
+}
+
+.api-temp-advice h2, h3{
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .api-city-name {
@@ -212,7 +229,7 @@ body {
 }
 
 .air-index {
-  padding: 50px;
+  padding: 25px;
   width: fit-content;
 }
 
@@ -225,6 +242,10 @@ body {
 .air-quality-icon-space {
   background-color: #fcf0f0;
   border-radius: 20px;
+}
+
+.air-quality-icon-space h1{
+  margin-top: 12px;
 }
 
 .AQI-img {
@@ -244,6 +265,7 @@ body {
   height: 300px;
   border-radius: 20px;
 }
+
 
 /*About-us Section style*/
 
