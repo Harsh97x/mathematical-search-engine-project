@@ -42,11 +42,15 @@ body {
   color: rgb(8, 8, 8);
 }
 
+.row{
+  justify-content: space-around;
+}
+
 .row h1 {
   font-weight: 600;
   margin-top: 2.3em;
   margin-left: 4em;
-  padding-left: 2em;
+  padding-left: em;
 }
 
 .container {
@@ -175,7 +179,7 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   padding-left: 25px;
-  padding-right: 25px;
+  padding-right: 50px;
   margin-left: -5px;
 }
 
@@ -199,10 +203,6 @@ body {
 .api-city-name {
   background-color: #fcf0f0;
   border-radius: 20px;
-}
-
-.api-main-dashboard-parent {
-  padding: 60px 200px 60px 50px;
 }
 
 .api-dashboard {
