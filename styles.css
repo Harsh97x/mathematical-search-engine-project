@@ -3,12 +3,13 @@
 }
 
 body {
+  background: #3585DA;
   margin: 0;
   font-family: "Outfit", sans-serif;
 }
 
 #hero-section{
-  background:  #ffcaca;
+  
 }
 
 .nav-item {
@@ -150,7 +151,6 @@ body {
 /*Open Weather API Result section Style*/
 
 #api-result {
-  background-color: #ffcaca;
   padding: 150px;
 }
 
@@ -270,7 +270,6 @@ body {
 /*About-us Section style*/
 
 #about-section {
-  background-color: #ffcaca;
   padding-bottom: 35px;
 }
 
@@ -348,23 +347,21 @@ body {
 
 .footer-tbox-parent-back {
   position: absolute;
-  top: -50px;
-  left: 70px;
-  right: 70px;
+  top: -80px;
+  left: 35px;
+  right: 35px;
   z-index: 9;
 }
 
 .footer-tbox {
   background-color: #ffffff;
-  padding-left: 300px;
-  padding-right: 300px;
-  padding-top: 10px;
   border-radius: 8px;
 }
 
 .footer-tbox-back {
   background-color: #fae6b3;
   border-radius: 10px;
+  margin-bottom: 
 }
 
 .footer-main-heading {
@@ -380,7 +377,6 @@ body {
 }
 
 .footer-section-background {
-  background-color: #fe9696;
   text-align: center;
   position: relative;
   top: 0;
