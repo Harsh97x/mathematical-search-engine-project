@@ -6,7 +6,7 @@ Webiste build using [OpenWeather API](https://openweathermap.org/) for showing w
 The live link of the website is <a href = "https://showweather-website.netlify.app/" target = "_blank">here</a>
 
 ## Screenshot
-
+![](https://github.com/Harsh97x/weather-webapp-project/blob/main/Assets/Screenshot.png)
 
 ## Design layout
 
